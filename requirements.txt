@@ -1,0 +1,16 @@
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+torchmetrics
+
+# Data & Visualization
+matplotlib
+seaborn
+numpy
+pandas
+scikit-learn
+
+# Utilities
+tqdm
+notebook
+ipykernel
