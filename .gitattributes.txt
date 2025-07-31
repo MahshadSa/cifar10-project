@@ -1,0 +1,11 @@
+# Handle line endings for different OS
+* text=auto
+
+# Always keep Jupyter notebooks in LF (Unix) format
+*.ipynb text eol=lf
+
+# Keep Python scripts in LF (good for most IDEs)
+*.py text eol=lf
+
+# Windows batch scripts can keep CRLF
+*.bat text eol=crlf
