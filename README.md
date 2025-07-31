@@ -10,6 +10,16 @@ This project explores image classification using the CIFAR-10 dataset with PyTor
 - Classes: `airplane`, `automobile`, `bird`, `cat`, `deer`, `dog`, `frog`, `horse`, `ship`, `truck`  
 - Source: [CIFAR-10 Official Website](https://www.cs.toronto.edu/~kriz/cifar.html)
 
+## 🚀 GPU Support
+This project now supports NVIDIA GPU acceleration via PyTorch.  
+- Verified on **NVIDIA GeForce GTX 1650** with CUDA 12.1
+- Automatically detects GPU if available:
+```python
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+
 ## 🧠 Project Structure
 
-- `notebooks/01_EDA.ipynb` — Exploratory Data Analysis
+- `notebooks/01_EDA.ipynb` : Exploratory Data Analysis
+-`notebooks/02_base_model.ipynb` : Baseline CNN model training and evaluation using PyTorch (GPU-enabled).
+
